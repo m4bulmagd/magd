@@ -2,21 +2,19 @@
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 
-
 export default function HeroSvg() {
-
   const { theme, systemTheme } = useTheme();
-  const [serverTheme, setServerTheme] = useState<"light" | "dark" | undefined>(
-    undefined
-  );
-  const scheme =
-    theme === "light" ? "light" : theme === "dark" ? "dark" : systemTheme;
+  const [mounted, setMounted] = useState(false);
 
-  // Set theme only after rendering to avoid mismatch between client and server
-  // https://github.com/vercel/next.js/issues/10608#issuecomment-589073831
+  // Wait for client-side hydration
   useEffect(() => {
-    setServerTheme(scheme);
-  }, [scheme]);
+    setMounted(true);
+  }, []);
+
+  // Only compute scheme after mounting
+  const scheme = mounted
+    ? theme === "light" ? "light" : theme === "dark" ? "dark" : systemTheme
+    : "light"; // Default fallback for SSR
 
   return (
     <svg
