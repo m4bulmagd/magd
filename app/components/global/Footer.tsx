@@ -75,8 +75,9 @@ export default function Footer() {
             </a> */}
 
             <small className="text-zinc-500">
-              Copyright &copy; Victor Eke {new Date().getFullYear()} All rights
-              Reserved
+              &copy;  {new Date().getFullYear()} Muhammad Aabulmagd
+              <br />
+              Portfolio design based on an MIT-licensed template by <a href="https://github.com/Evavic44/victoreke.com" target="_blank" rel="noreferrer noopener">Victor Eke</a>.
             </small>
           </div>
         </div>
