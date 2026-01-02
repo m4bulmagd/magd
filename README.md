@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-<h1>victoreke.com</h1>
+<h1>magd.dev</h1>
 <p>My personal portfolio website</p>
 </div>
 
@@ -16,12 +16,6 @@
 - [Umami][umami]: Analytics
 - [Next Themes][nexttheme]: Color Theme
 - [React Refractor][reactrefractor]: Syntax Highlighting
-
-## Project Overview
-
-| [Site][site]          | [Studio][studio]                 |
-| --------------------- | -------------------------------- |
-| ![Site][site-preview] | ![Sanity Studio][studio-preview] |
 
 ## Run Project Locally
 
@@ -126,8 +120,6 @@ This portfolio is MIT-licensed so you are free to use it as an inspiration or yo
 [reactrefractor]: https://github.com/rexxars/react-refractor
 [site]: https://magd.dev
 [studio]: https://magd.dev/studio
-[studio-preview]: https://github.com/Evavic44/victoreke.com/assets/62628408/a2574479-a352-4437-ba67-14bd976e48eb
-[site-preview]: https://github.com/Evavic44/victoreke.com/assets/62628408/e84ac72f-1ba1-4c46-bfc0-2512ffa0e5fa
 [env-example]: https://github.com/Evavic44/victoreke.com/blob/main/.env.example
 [localhost]: http://localhost:3000
 [localhost-studio]: http://localhost:3000/studio
