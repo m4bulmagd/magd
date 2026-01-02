@@ -7,3 +7,9 @@ export const github: any = {
   light: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
   dark: ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"],
 };
+
+
+export const githubDeepSea: any = {
+  light: ["#ebedf0", "#a5d8ff", "#4dabf7", "#228be6", "#1864ab"],
+  dark: ["#161b22", "#0d2847", "#164e87", "#2778b1", "#44a3e5"],
+};

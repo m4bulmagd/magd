@@ -1,7 +1,7 @@
 "use client";
 import { useTheme } from "next-themes";
 import GitHubCalendar from "react-github-calendar";
-import { github } from "@/app/data/contribution-graph-theme";
+import { github, espionage, githubDeepSea } from "@/app/data/contribution-graph-theme";
 import { useState, useEffect } from "react";
 import YearButton from "../shared/YearButton";
 import { getGitHubYears } from "@/app/utils/calculate-years";
@@ -44,7 +44,7 @@ export default function ContributionGraph() {
       <div className="dark:bg-primary-bg bg-secondary-bg border dark:border-zinc-800 border-zinc-200 p-8 rounded-lg max-w-fit max-h-fit">
         <GitHubCalendar
           username={username}
-          theme={github}
+          theme={githubDeepSea}
           colorScheme={serverTheme}
           blockSize={13}
           year={calendarYear}
