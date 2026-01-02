@@ -14,7 +14,7 @@ export default function HeroSvg() {
   // Only compute scheme after mounting
   const scheme = mounted
     ? theme === "light" ? "light" : theme === "dark" ? "dark" : systemTheme
-    : "light"; // Default fallback for SSR
+    : "dark"; // Default fallback for SSR
 
   return (
     <svg

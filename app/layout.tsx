@@ -15,12 +15,10 @@ const inter = Inter({
 });
 
 const options = {
-  title: "Victor Eke | Software Developer",
+  title: "Muhammad Abulmagd | Machine Learning/Software Engineer",
   description:
-    "Victor Eke is a Software Developer and Technical Writer who is passionate about building solutions and contributing to open source communities",
-  url: "https://victoreke.com",
-  ogImage:
-    "https://res.cloudinary.com/victoreke/image/upload/v1692635746/victoreke/og.png",
+    "Muhammad Abulmagd is a Machine Learning/Software Engineer who is passionate about building solutions",
+  url: "https://magd.dev",
 };
 
 export const metadata: Metadata = {
@@ -30,17 +28,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: options.title,
     url: options.url,
-    siteName: "victoreke.com",
+    siteName: "magd.dev",
     locale: "en-US",
     type: "website",
     description: options.description,
-    images: options.ogImage,
   },
   alternates: {
     canonical: options.url,
-  },
-  other: {
-    "google-site-verification": "IzcWMgn5Qjf-LCtA337KTGjivsf9bmod_1pZ-jxYQh8",
   },
 };
 
